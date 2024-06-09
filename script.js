@@ -147,7 +147,7 @@ class Capacity{
       tank = capacity;
       container.appendChild(capacity);
       capacity.classList.add('capacity');
-      capacity.innerHTML = 'MIX ELEMENTS'
+      capacity.innerHTML = 'Соединиить'
       capacity.addEventListener('dragover', function(event){
         event.preventDefault();
       });
@@ -288,7 +288,7 @@ class DeleteArea{
     var area = document.createElement('div');
     container.appendChild(area);
     area.classList.add('deleteArea');
-    area.innerHTML = 'DELETE ELEMENT';
+    area.innerHTML = 'Удалить';
     area.addEventListener('dragover', function(event){
       event.preventDefault();
     });
